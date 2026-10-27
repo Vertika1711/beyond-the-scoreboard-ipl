@@ -49,7 +49,7 @@ After cleaning, the deliveries table has 260,759 rows.
 - The 2024 average is about 17 runs above any season before 2023.
 - This coincides with the introduction of the Impact Player rule in 2023, though other factors may also play a part.
 
-![Average first-innings score by IPL season](images/scoring_trend.png?v=2)
+![Average first-innings score by IPL season](images/chart1_scoring_trend.png)
 
 ### 2. The toss itself matters little, but the decision after it shows a pattern
 - Toss winners won about **51%** of matches overall, close to a coin flip.
@@ -57,7 +57,7 @@ After cleaning, the deliveries table has 260,759 rows.
 - Teams that chose to **bat first won 45.4%** of the time.
 - Captains chose to field in **64%** of matches.
 
-![Toss winner's match win percentage by decision](images/toss_decision.png?v=2)
+![Toss winner's match win percentage by decision](images/chart2_toss_decision.png)
 
 ### 3. Spinners stand out in death-over economy
 - Among bowlers with at least 300 death-over balls, **5 of the top 10** by economy are spinners.
@@ -65,14 +65,14 @@ After cleaning, the deliveries table has 260,759 rows.
 - **Lasith Malinga** took the most wickets in this group (122, about one every 9.6 balls).
 - **Jasprit Bumrah** bowled the most death-over deliveries in the top 10.
 
-![Most economical death-over bowlers](images/death_over_bowlers.png?v=2)
+![Most economical death-over bowlers](images/chart3_death_over_bowlers.png)
 
 ### 4. Consistency at the top is rare
 - Only **6 batters** finished among a season's top 3 run-scorers three or more times.
 - **KL Rahul** and **David Warner** did it 5 times each, followed by **Virat Kohli** with 4.
 - The runs needed to top the charts rose from around 600 in early seasons to **740–890** in recent seasons.
 
-![Seasons finishing in the top 3 run-scorers](images/consistent_batters.png?v=2)
+![Seasons finishing in the top 3 run-scorers](images/chart4_consistent_batters.png)
 
 ## Recommendations & Limitations
 
@@ -104,8 +104,8 @@ beyond-the-scoreboard-ipl/
 ├── Beyond_The_Scoreboard_IPL_Data_Analysis.ipynb    # data cleaning and charts (Python)
 ├── ipl_analysis.sql                                 # table creation, checks and analysis queries (PostgreSQL)
 └── images/                                          # charts used in this README
-    ├── scoring_trend.png
-    ├── toss_decision.png
-    ├── death_over_bowlers.png
-    └── consistent_batters.png
+    ├── chart1_scoring_trend.png
+    ├── chart2_toss_decision.png
+    ├── chart3_death_over_bowlers.png
+    └── chart4_consistent_batters.png
 ```
